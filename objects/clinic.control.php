@@ -1,7 +1,7 @@
 <?php
 require_once 'clinic.class.php';
-class RecordControl extends Clinic{
 
+class RecordControl extends Clinic{
  protected function setRecordStatus($ref){
   $this->recordStatus($ref);
  }

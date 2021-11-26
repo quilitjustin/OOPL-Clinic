@@ -25,7 +25,7 @@ class Database{
  protected function commitPatientDelete($key){
    $arr = $this->queryPatientData();
     if(!array_key_exists($key, $arr)){
-    header("Location: ../patient.ui.php?msg=<h3 class='text-danger'>Opps Something Went Wrong!</h3>");
+     header("Location: ../patient.ui.php?msg=<h3 class='text-danger'>Opps Something Went Wrong!</h3>");
     die();
    }
   unset($arr[$key]);

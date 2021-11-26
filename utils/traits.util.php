@@ -1,4 +1,5 @@
 <?php
+
 trait Validation{
  public function validateGender($gender){
   if(!in_array($gender, ['Male', 'Female'])){

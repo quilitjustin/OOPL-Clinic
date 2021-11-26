@@ -1,6 +1,7 @@
 <?php
 require_once dirname(__DIR__).'/objects/clinic.view.php';
 require_once 'sort.util.php';
+
 class ViewPatient extends ViewRecord{
  public function getPatientInfo(){
     return $this->fetchPatientInfo();

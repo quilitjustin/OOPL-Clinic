@@ -1,7 +1,7 @@
 <?php
 require_once "clinic.db.handler.php";
-class Clinic extends DataBase{
 
+class Clinic extends DataBase{
  protected function addPatient($arr, $key){
   $this->commitPatientChange($arr, $key);
  }
