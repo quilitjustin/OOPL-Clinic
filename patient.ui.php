@@ -43,7 +43,7 @@
                 <input class="button custom-btn-width btn-success p-1" name="sort" type="submit" value="Gender">
             </form>
             <form class="p-2 shadow-lg" method="POST" action="utils/patient.delete.php" style="width: 25rem">
-                <label for="uid" class="form-label text-primary">Patient Name</label>
+                <label for="uid" class="form-label text-primary">Delete Patient: </label>
                 <input type="text" class="form-control mb-3" id="uid" name="uid" placeholder="Name" required>
                 <button class="button btn-danger p-1" name="submit" type="submit">Delete</button>
             </form>
