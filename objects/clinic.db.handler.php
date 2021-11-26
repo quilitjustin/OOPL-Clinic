@@ -14,7 +14,7 @@ class Database{
  protected function commitPatientChange($data, $key){
   $arr = $this->queryPatientData();
     if(array_key_exists($key, $arr)){
-     header("Location: ../index.php?msg=<h3 class='text-danger'>Opps Something Went Wrong!</h3>");
+     header("Location: ../index.php?msg=<h3 class='text-danger'>Patient Already Exist!</h3>");
      die();
     }
   $arr[$key] = $data;
@@ -25,7 +25,7 @@ class Database{
  protected function commitPatientDelete($key){
    $arr = $this->queryPatientData();
     if(!array_key_exists($key, $arr)){
-     header("Location: ../patient.ui.php?msg=<h3 class='text-danger'>Opps Something Went Wrong!</h3>");
+     header("Location: ../patient.ui.php?msg=<h3 class='text-danger'>Patient Doesn't Exist</h3>");
     die();
    }
   unset($arr[$key]);
@@ -37,7 +37,7 @@ class Database{
  protected function commitConsultStatus($key){
     $arr = $this->queryConsultData();
     if(!array_key_exists($key, $arr)){
-     header("Location: ../consult.ui.php?msg=<h3 class='text-danger'>Opps Something Went Wrong!</h3>");
+     header("Location: ../consult.ui.php?msg=<h3 class='text-danger'>Record Doesn't Exist!</h3>");
      die();
     }
     if($arr[$key]["status"] == "Complete"){
