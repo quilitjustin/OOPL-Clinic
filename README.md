@@ -6,7 +6,14 @@
 
 ## Specipication
 
+    1. Can display patient's information. (NAME, AGE, GENDER, ADDRESS).
+    2. System can mark the patient if it is done with his/her consultation.
+    3. System can add and delete patient.
+    4. System can arrange the patient's record.
+
+    There is no add consultation in the instruction so i just provided data directly ito flat file
     
+
 ## Constraints
 
     Basic only for frontend and backend (like: 2 same user can't exist)
@@ -14,9 +21,9 @@
 
 ## Languages
 
-    PHP 8
+    PHP 
     HTML
-    Css (Bootstrap)
+    Css
 
 ## Paradigm
 
@@ -25,4 +32,16 @@
 ## Model
 
     MVC
+
+## How to Use
+    
+    Requirements: 
+
+    Internet Connection (For css bootstrap)
+    xampp (https://docs.cs-cart.com/latest/install/windows/xampp/index.html)
+
+    Step 1. Put the file inside the htdocs of your xampp folder. (https://www.apachefriends.org/faq_windows.html)
+    Step 2. Run xampp.
+    Step 3. Start Apache (No need for mysql because we are using flat file for db)
+    Step 4. Open your browser and go to localhost/OOPL-CLINIC-REPO (may change depending on the directory)
 
