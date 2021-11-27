@@ -7,8 +7,7 @@ class AddPatient extends RecordControl{
  public function setDataPatient(){
     $name = $this->properFormat($_POST['name']); 
     $address = $this->properFormat($_POST['address']);
-    $age = $_POST['age'];
-    $this->isEmpty($age);
+    $age = $this->isInt($_POST['age']);
     $gender = $this->properFormat($_POST['gender']);
     $this->validateGender($gender);   
     $arr = array(

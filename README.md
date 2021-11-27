@@ -12,13 +12,14 @@
     4. System can arrange the patient's record.
 
     There is no add consultation in the instruction so i just provided data directly into flat file.
-    Sorting of Time is Desc because you wan't the latest record.
-    
+    Sorting of Time is Desc Order because you wan't the latest record.
+    Not too strict with string at the moment
 
 ## Constraints
 
     Basic only for frontend and backend (like: 2 same user can't exist).
     Patient name can accept both string and int because there are some cases their names can't be disclosed, so we use Patient no. code name, etc. (Major reason is we are not using database).
+    The html form is design to atleast prevent wrong input, if wrong input goes in, bring them back and stop the script.
 
 ## Languages
 
