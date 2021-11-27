@@ -24,7 +24,9 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <?php foreach($records as $rec){ ?>
+                    <?php 
+                        if(!empty($records)){
+                        foreach($records as $rec){ ?>
                         <tr>
                             <td><?= $rec['ref'] ?></td>
                             <td><?= $rec['name'] ?></td>
@@ -32,7 +34,7 @@
                             <td><?= $rec['time'] ?></td>
                             <td><?= $rec['status'] ?></td>
                         </tr>
-                    <?php } ?>
+                    <?php } } ?>
                 </tbody>
             </table>
         </div>

@@ -36,6 +36,9 @@
         <li class="nav-item">
           <a class="nav-link" href="consult.ui.php">Consultation</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.php">Register</a>
+        </li>
       </ul>
     </div>
   </div>

@@ -23,14 +23,16 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <?php foreach($records as $rec){ ?>
+                    <?php 
+                        if(!empty($records)){
+                        foreach($records as $rec){ ?>
                         <tr>
                             <td><?= $rec['name'] ?></td>
                             <td><?= $rec['address'] ?></td>
                             <td><?= $rec['age'] ?></td>
                             <td><?= $rec['gender'] ?></td>
                         </tr>
-                    <?php } ?>
+                    <?php } }?>
                 </tbody>
             </table>
         </div>
