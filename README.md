@@ -48,15 +48,15 @@
     
 ## UI Documentation
   
-    ### Nav
-    ![img](https://drive.google.com/uc?export=view&id=1ZUKIl6QaVdVPFmk_gWzSgyX29bnUlozX)
+  ### Nav
+   ![img](https://drive.google.com/uc?export=view&id=1ZUKIl6QaVdVPFmk_gWzSgyX29bnUlozX)
   
-    ### Patient UI
-    ![img](https://drive.google.com/uc?export=view&id=1hmOHK8Sx02Y73y09osLuoHSejMcGxeFu)
+   ### Patient UI
+   ![img](https://drive.google.com/uc?export=view&id=1hmOHK8Sx02Y73y09osLuoHSejMcGxeFu)
   
-    ### Consult UI
-    ![img](https://drive.google.com/uc?export=view&id=1GLgElveQJWaoixEoS9LfcTGW4IhoejPJ)
+   ### Consult UI
+   ![img](https://drive.google.com/uc?export=view&id=1GLgElveQJWaoixEoS9LfcTGW4IhoejPJ)
   
-    ### Add Patient
-    ![img](https://drive.google.com/uc?export=view&id=1znA1ZEa_lyXdZ0ui1vXi553804CJJtQH)
+   ### Add Patient
+   ![img](https://drive.google.com/uc?export=view&id=1znA1ZEa_lyXdZ0ui1vXi553804CJJtQH)
 
