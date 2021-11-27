@@ -9,7 +9,7 @@ class Sort{
   $sortBy = strtolower($_GET["sort"]);
   return strnatcmp($x[$sortBy], $y[$sortBy]);
  }
- function sortTime($x, $y){
+ public function sortTime($x, $y){
   $x = new DateTime($x['time']);
   $y = new DateTime($y['time']);
   if($x == $y){

@@ -11,7 +11,7 @@
     3. System can add and delete patient.
     4. System can arrange the patient's record.
 
-    There is no add consultation in the instruction so i just provided data directly ito flat file.
+    There is no add consultation in the instruction so i just provided data directly into flat file.
     Sorting of Time is Desc because you wan't the latest record.
     
 
