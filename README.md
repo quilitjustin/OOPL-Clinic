@@ -44,4 +44,13 @@
     Step 2. Run xampp.
     Step 3. Start Apache (No need for mysql because we are using flat file for db)
     Step 4. Open your browser and go to localhost/OOPL-CLINIC-REPO (may change depending on the directory)
+    ## UI Documentation
+  ### Nav
+  ![img](https://drive.google.com/uc?export=view&id=1hmOHK8Sx02Y73y09osLuoHSejMcGxeFu)
+  ### Patient UI
+  ![img](https://drive.google.com/uc?export=view&id=1hmOHK8Sx02Y73y09osLuoHSejMcGxeFu)
+  ### Consult UI
+  ![img](https://drive.google.com/uc?export=view&id=1GLgElveQJWaoixEoS9LfcTGW4IhoejPJ)
+  ### Add Patient
+  ![img](https://drive.google.com/uc?export=view&id=1znA1ZEa_lyXdZ0ui1vXi553804CJJtQH)
 
