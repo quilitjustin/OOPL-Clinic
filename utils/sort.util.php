@@ -10,9 +10,11 @@ class Sort{
   return strnatcmp($x[$sortBy], $y[$sortBy]);
  }
  function sortTime($x, $y){
-  if($x["time"] == $y["time"]){
-   return sortName($x, $y);
+  $x = new DateTime($x['time']);
+  $y = new DateTime($y['time']);
+  if($x == $y){
+   return 0;
   }
-  return strtotime($x["time"]) - strtotime($y["time"]);
+  return $x < $y ? 1 : 1;
  }
 }

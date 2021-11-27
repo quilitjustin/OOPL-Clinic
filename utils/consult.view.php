@@ -26,7 +26,6 @@ if(isset($_GET['sort'])){
    break;
   case "time":
    uasort($records, [$sort, 'sortTime']);
-   $records = array_reverse($records);
    break;
   case "status":
    uasort($records, [$sort, 'sortString']);
